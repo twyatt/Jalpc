@@ -1,21 +1,35 @@
-# projects section data
-# If you don't have language feature(language.yml is empty), ignore "i18n" items
-# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
-  i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+- name: Galactic Aztec Heavy Data Acquisition
+  gh_user: twyatt
+  repo: galactic-aztec-heavy-data-acquisition
+  img: /static/assets/img/landing/gauge.png
+  desc: Server and client application suite for reading sensors from a Raspberry Pi and transmitting to a remote client. Designed for the SDSU Rocket Project to be used on the Galactic Aztec Heavy rocket in order to read tank pressures. Although it can operate as a general purpose data acquisition software suite, providing data recording and transmission capabilities.
 
-- name: LeetCode
-  i18n: leetcode
-  gh_user: kamyu104
-  repo: LeetCode
-  img: /static/assets/img/landing/leetcode.png
-  desc: This project is other's project. I use another request to get repo's information.
+- name: "Galactic Aztec Heavy Raspberry Pi Add-on: ADC"
+  gh_user: twyatt
+  repo: galactic-aztec-heavy-rpi-addon-adc
+  img: /static/assets/img/landing/adc-board.png
+  desc: Custom Raspberry Pi Add-on ADC board used to read pressures on the Galactic Aztec Heavy rocket.
 
-- name: FamilyCODE Wchat
-  i18n: familycode
-  img: /static/assets/img/landing/familycode.png
-  desc: This is a shopping mall in wechat, it promotes gene detection. Since time is precious, I write this website with Django, jQuery, weui. This is WuxiNextcode's major product. You can scan project's picture by wechat.
+- name: "GV4J: Google Voice API for Java"
+  gh_user: twyatt
+  repo: gv4j
+  img: /static/assets/img/landing/gv4j.png
+  desc: Unofficial Google Voice API for Java created by reverse engineering the Google Voice mobile site.
+
+- name: "RxIoio: Reactive APIs for IOIO"
+  gh_user: twyatt
+  repo: RxIoio
+  img: /static/assets/img/landing/ioio.jpg
+  desc: Convenience methods for using RxJava 2 with IOIO hardware.
+
+- name: ADXL345 accelerometer on Raspberry Pi
+  gh_user: twyatt
+  repo: pi-adxl345
+  img: https://raw.githubusercontent.com/twyatt/pi-adxl345/master/artwork/breakout.jpg
+  desc: Simple Java application to interface with the ADXL345 accelerometer breakout on a Raspberry Pi over I²C using Pi4J.
+
+- name: Klotski Solver
+  gh_user: twyatt
+  repo: klotski-solver
+  img: https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/HuaRongDao.jpg/220px-HuaRongDao.jpg
+  desc: Klotski "wooden puzzle" solver. Utilizes breadth-first search algorithm when searching for a solution and bitboards are used to provide further efficiency when comparing puzzle configurations.

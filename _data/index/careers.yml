@@ -1,29 +1,70 @@
-# careers section data
-# if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Company A
-    i18n: company_a
+    detail: FIS Mobile
   desc:
-    detail: I worked at Company A ...
-    i18n: company_a_desc
+    detail: Member of team tasked with developing secure mobile banking app with modern UI design elements and transitions.
   date:
-    detail: Apr. 2016
-    i18n: company_a_date
+    detail: 2015 - Present
   job:
-    detail: CTO
-    i18n: company_a_job
-  icon: fa-plus-square
+    detail: Software Engineer II
+  icon: fa-android
 
 - name:
-    detail: Company B
-    i18n: company_b
+    detail: San Diego State University Rocket Project
   desc:
-    detail: I worked at Company B ...
-    i18n: company_b_desc
+    detail: "Participated in three successful launches of two liquid propellent rockets: 26 ft. (1000 lb·f thrust) Galactic Aztec and 18 ft. Swiss Miss."
   date:
-    detail: Jun. 2015
-    i18n: company_b_date
+    detail: 2013 - 2015
   job:
-    detail: Full Stack Developer
-    i18n: company_b_job
-  icon: fa-plus-square
+    detail: Software / Electrical Team Member, Avionics & Telemetry
+  icon: fa-rocket
+
+- name:
+    detail: A3D Labs
+  desc:
+    detail: Co-founder and software developer for A3D Labs, a startup focused on developing innovative and affordable 3D printers
+  date:
+    detail: 2013 - 2014
+  job:
+    detail: CTO, Co-founder
+  icon: icon-3dprint
+
+- name:
+    detail: Space Micro
+  desc:
+    detail: Member of a team of engineers developing software for Rad-Hard (radiation hardened) space hardware
+  date:
+    detail: 2013
+  job:
+    detail: Software Developer
+  icon: fa-space-shuttle
+
+- name:
+    detail: Brew Engine
+  desc:
+    detail: Co-founder and developer of an indie app studio publishing apps for Android / iOS
+  date:
+    detail: 2010 - 2012
+  job:
+    detail: Software Developer, Co-founder
+  icon: fa-gamepad
+
+- name:
+    detail: Thermography, LLC
+  desc:
+    detail: Lead developer involved in creating software to interact with infrared camera hardware. Developed protocols and web presence
+            to securely transfer patient data. Designed and maintained cluster based server infrastructure
+  date:
+    detail: 2007 - 2009
+  job:
+    detail: Software Developer, Lead Developer
+  icon: fa-stethoscope
+
+- name:
+    detail: mIR Medical Imaging
+  desc:
+    detail: Involved in technological development of data transfer suites and server infrastructure maintenance for medical imaging solutions.
+  date:
+    detail: 2004 - 2006
+  job:
+    detail: Software Developer, Full Stack
+  icon: fa-heartbeat
